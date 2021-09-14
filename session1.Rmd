@@ -1,0 +1,22 @@
+---
+title: "Untitled"
+author: "Bokyung Kang"
+date: '2021 9 14 '
+output: html_document
+---
+
+```{r setup, include=FALSE}
+#install.packages("usethis")
+usethis::use_git_config(user.name = "Bokyung130",
+user.email = "1130bokyung@gmail.com")
+
+#usethis::create_github_token()
+
+#credentials::set_github_pat("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")
+```
+
+```{r}
+#installed.packages(c("tidyverse", "quanteda"))
+library(tidyverse)
+library(quanteda)
+```
